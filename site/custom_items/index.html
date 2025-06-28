@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Custom Items - Corporate Minecraft</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Corporate Minecraft</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../features/" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Custom Items</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../rules/" class="nav-link">Rules</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../updates/" class="nav-link">Changelog</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../features/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../rules/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#custom-items" class="nav-link">Custom Items</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#weapons" class="nav-link">Weapons</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#weapon-drops" class="nav-link">Weapon Drops</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#runes-crafting" class="nav-link">Runes (Crafting)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#weapon-skills" class="nav-link">Weapon Skills</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#sets" class="nav-link">Sets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#armor" class="nav-link">Armor</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#tiers" class="nav-link">Tiers</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#armor-drops" class="nav-link">Armor Drops</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fragments-crafting" class="nav-link">Fragments (Crafting)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#armor-skills" class="nav-link">Armor Skills</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="custom-items">Custom Items</h1>
+<p>This server features dozens of customized mobs, weaponry, and mobs. This wiki page contains spoilers.</p>
+<h1 id="weapons">Weapons</h1>
+<p>This server features 35+ custom weapons, all of which are obtained either by mob drop or by <a href="#runes-crafting">rune crafting</a>. All custom weapons are silently equipped with Looting III, and cannot be enchanted, renamed, repaired, or broken.</p>
+<h2 id="weapon-drops">Weapon Drops</h2>
+<p>Many weapons are random drops from custom mobs. Some weapons are more rare than others.</p>
+<p><img alt="Alt text" src="../img/features/weapons-drops.png" /></p>
+<details>
+<summary><strong>Click to view eligible mob weapon drops</strong></summary>
+
+<p>The following weapons are eligible to drop from mobs:</p>
+
+<ul>
+  <li><strong>Grynn</strong>
+    <ul>
+      <li>Carian Knight Sword (1–4)</li>
+      <li>Wakizashi (1–4)</li>
+      <li>Forest Guardian Glaive</li>
+      <li>Sentinel Will</li>
+    </ul>
+  </li>
+  <li><strong>Scorch</strong>
+    <ul>
+      <li>Demonic Cleaver</li>
+      <li>Sunbreaker</li>
+      <li>Dragon Slaying Blade</li>
+    </ul>
+  </li>
+  <li><strong>Veil</strong>
+    <ul>
+      <li>Cyber Blade</li>
+      <li>Divine Axe Rhitta</li>
+      <li>Abominable Scythe</li>
+      <li>Abominable Sword</li>
+      <li>Abominable Great Saber</li>
+      <li>Gloomsteel Knife</li>
+      <li>Gloomsteel Katana</li>
+      <li>Gloomsteel Greataxe</li>
+    </ul>
+  </li>
+  <li><strong>Airthaal</strong>: ???</li>
+  <li><strong>Nohrm</strong>: ???</li>
+  <li><strong>Iskk</strong>: ???</li>
+</ul>
+
+</details>
+
+<h2 id="runes-crafting">Runes (Crafting)</h2>
+<p>Weapons that cannot be dropped can be crafted by combining 9 of their runes in a crafting table.</p>
+<p><img alt="Alt text" src="../img/features/weapons-runes.png" /></p>
+<details>
+<summary><strong>Click to view craftable weapons</strong></summary>
+
+<p>The following weapons can be crafted:</p>
+
+<ul>
+  <li><strong>Grynn</strong>
+    <ul>
+      <li>Bramblethorn</li>
+      <li>Thornfang</li>
+      <li>Royal Chakram</li>
+      <li>Enigma</li>
+      <li>Treasure of the Pharaoh</li>
+      <li>Mystical Spellblade</li>
+    </ul>
+  </li>
+  <li><strong>Scorch</strong>
+    <ul>
+      <li>Soul Collector</li>
+      <li>Bloody Death</li>
+      <li>Scissor Blade</li>
+      <li>Thousand Demon Dagger</li>
+      <li>Emberblade</li>
+    </ul>
+  </li>
+  <li><strong>Veil</strong>
+    <ul>
+      <li>Vesper</li>
+      <li>Edge of the Stars</li>
+      <li>Edge of the Astral Plane</li>
+    </ul>
+  </li>
+  <li><strong>Airthaal</strong>: ???</li>
+  <li><strong>Nohrm</strong>: ???</li>
+  <li><strong>Iskk</strong>: ???</li>
+</ul>
+
+</details>
+
+<h2 id="weapon-skills">Weapon Skills</h2>
+<p>Many weapons come equipped with special skills that set them apart from other weapons. Obtain every weapon to see them all!
+<img alt="Alt text" src="../img/features/weapons-skills.png" /></p>
+<h2 id="sets">Sets</h2>
+<details>
+<summary><strong>Click to view weapon sets (2)</strong></summary>
+
+<p>The following weapon sets are both found in Veil:</p>
+
+<ul>
+  <li><strong>Abominable Set</strong></li>
+  <li><strong>Gloomsteel Set</strong></li>
+</ul>
+
+</details>
+
+<p>Obtain these sets to find out what they do, and how each weapon in each set works together!</p>
+<h1 id="armor">Armor</h1>
+<p>This server features 18 custom armor types, all of which are obtained either by mob drop or by <a href="#fragments-crafting">fragment crafting</a>. All custom armor have four <a href="#tiers">tiers</a>.</p>
+<h2 id="tiers">Tiers</h2>
+<p>All custom armor have four tiers, marked by the number of stars (✪) in a piece's name. <a href="#fragments-crafting">Craftable custom armor</a> tiers are set according to the tiers of the fragments used to craft them. <a href="#armor-drops">Dropped custom armor</a> tiers are randomized, with higher tiers being more rare. </p>
+<p>Some armor sets scale harder than others. For example, tier (✪) of armor set A may have lower stats than tier (✪) of armor set B, but tier (✪✪✪✪) of armor set A may have higher stats than tier (✪✪✪✪) of armor set B.</p>
+<h2 id="armor-drops">Armor Drops</h2>
+<p>Many armor pieces are random drops from custom mobs. Some armor pieces are more rare than others. With some exceptions, each tier higher of armor has half the chance of the previous tier to drop. This means that a tier (✪✪✪✪) armor piece has 1/64th the chance of a tier (✪) armor piece to drop.</p>
+<p>Armor that is dropped from mobs can be crafted into a higher tier. For example, 4x "Tier ✪ Leaf Boots" can be placed in a crafting interface to upgrade them to 1x "Tier ✪✪ Leaf Boots".</p>
+<details>
+<summary><strong>Click to view mob-dropped armor sets</strong></summary>
+
+<p>The following armor sets are eligible to drop from mobs:</p>
+
+<ul>
+  <li><strong>Grynn</strong>
+    <ul>
+      <li>Leaf Set</li>
+      <li>Druid Set</li>
+    </ul>
+  </li>
+  <li><strong>Scorch</strong>
+    <ul>
+      <li>Ash Set</li>
+      <li>Debris Set</li>
+    </ul>
+  </li>
+  <li><strong>Veil</strong>
+    <ul>
+      <li>Void Set</li>
+    </ul>
+  </li>
+  <li><strong>Airthaal</strong>: ???</li>
+  <li><strong>Nohrm</strong>: ???</li>
+  <li><strong>Iskk</strong>: ???</li>
+</ul>
+
+</details>
+
+<h2 id="fragments-crafting">Fragments (Crafting)</h2>
+<p>Armor that cannot be dropped can be crafted by combining their respective fragments in regular armor patterns.</p>
+<p>Lower-tier fragments can be used to craft higher-tier fragments by combining four of the same levelled fragment.</p>
+<p>Higher-tier fragments can be crafted into lower-tier fragments, and armor can be dismantled back into fragments. Both are done by placing the singular fragment or armor piece in a crafting menu.</p>
+<p>Fragments follow the same scaling drop chances that armor does. This means that a tier (✪✪✪✪) fragment has 1/64th the chance of a tier (✪) fragment to drop.</p>
+<p><img alt="Alt text" src="../img/features/armor-fragments.png" /></p>
+<details>
+<summary><strong>Click to view craftable armor sets</strong></summary>
+
+<p>The following armor sets can be crafted:</p>
+
+<ul>
+  <li><strong>Grynn</strong>
+    <ul>
+      <li>Root Set</li>
+    </ul>
+  </li>
+  <li><strong>Scorch</strong>
+    <ul>
+      <li>Magma Set</li>
+    </ul>
+  </li>
+  <li><strong>Veil</strong>
+    <ul>
+      <li>Ender Set <em>(also requires an Ender Core per armor piece)</em></li>
+      <li>Ruined Set</li>
+    </ul>
+  </li>
+  <li><strong>Airthaal</strong>: ???</li>
+  <li><strong>Nohrm</strong>: ???</li>
+  <li><strong>Iskk</strong>: ???</li>
+</ul>
+
+</details>
+
+<h2 id="armor-skills">Armor Skills</h2>
+<p>All armor pieces come equipped with special skills that set them apart from other armor. Obtain every armor to see them all!</p>
+<p><img alt="Alt text" src="../img/features/armor-skills.png" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
