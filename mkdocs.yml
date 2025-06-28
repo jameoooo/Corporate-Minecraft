@@ -1,0 +1,12 @@
+site_name: Corporate Minecraft
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md 
+  - Features: features.md 
+  - Custom Items: custom_items.md 
+  - Rules: rules.md
+  - Changelog: updates.md
