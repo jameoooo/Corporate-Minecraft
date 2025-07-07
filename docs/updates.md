@@ -2,7 +2,7 @@
 
 This page shows all of the changes over time made to the server; largely to keep track of updates, additions, and adjustments.
 
-## **1.1 - The Gambling Update
+## **1.1 - The Gambling Update**
 ###### <u>Release Date: 7/6/25</u>
 This update addresses some glaring needs of the Vegas variety, as well as adding some other things. Info is available on the [Features page](features.md/).
 - Added PyroFishing plugin (/fish)
