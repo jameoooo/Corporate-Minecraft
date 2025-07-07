@@ -35,7 +35,6 @@ More info can likely be found somewhere on the [Animated Architecture Spigot Pag
 ![Alt text](img/features/AnimatedArchitecture.png)
 
 ## **Block Locker**
-
 BlockLocker allows players to lock their private chests, furnaces, barrels, and any other containers from being used by other players. BlockLocker can also lock doors of all types.
 
 #### **Editing a BlockLocker sign**
@@ -69,6 +68,10 @@ Cosmetics can be earned on this server by buying and opening Treasure Chests wit
 
 Pets do not attack, and no effects will change anything major about gameplay. Don’t expect much from the emotes.
 ![Alt text](img/features/UltraCosmetics.png)
+
+## **Daily Rewards**
+Rewards can be claimed daily. These rewards range from in-game currency, to vanilla items, to custom runes and items.
+![Alt text](img/features/DailyRewards.png)
 
 ## **DropHeads**
 All mobs have a % chance of dropping their heads
@@ -118,6 +121,10 @@ McMMO is an RPG-styled skills plugin that allows you to level up different Minec
 - /mcrank (player) - shows a player’s (or your own) skill ranks
 - /(skill) - shows information about a specific skill, including abilities
 ![Alt text](img/features/McMMO.png)
+
+## **PyroFishing**
+PyroFishing adds features that completely revamp the fishing experience. More info can be found at the [PyroFishing Spigot page](https://www.spigotmc.org/resources/pyrofishingpro-1-14-x-1-21-x-1-fishing-plugin-new-tournament-rework.60729/).
+![Alt text](img/features/PyroFishing.png)
 
 ## **PyroMining**
 PyroMining adds many different functions that completely revamp the mning experience. The feature list is provided below and more details can be found at the [PyroMining Spigot page](https://www.spigotmc.org/resources/pyromining-1-14-x-1-21-x-v4-0-0-update-artifacts-fossils-and-vessels.59867/) as well as the [PyroMining Wiki](./pyromining.md)
@@ -213,3 +220,11 @@ In chat, you will have a tag next to your name. More tags are earned by completi
 ## **ViaVersion**
 Corporate Minecraft runs on 1.20.2 due to plugin compatibility issues - but ViaVersion allows you to join from a variety of Minecraft versions. This has not been thoroughly tested. ***I would not joing from any version before 1.20.2.***
 ![Alt text](img/features/ViaVersion.png)
+
+## **Vegas**
+Gambling.
+![Alt text](img/features/Vegas.png)
+
+#### Commands:
+/vegas menu - opens the Vegas menu
+/vegas create (table) - gives yourself a table or machine for your desired game
