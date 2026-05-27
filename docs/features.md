@@ -88,7 +88,7 @@ Enchantments are limited on this server to adjust for difficulty changes. The fo
 
 ## **GSit**
 Players can sit on stairs, sit on other players, and /crawl on the ground. Sitting is done by right-clicking (or shfit-right clicking other players)
-![Alt text](img/features/DropHeads.png)
+![Alt text](img/features/GSit.png)
 
 ## **Health Bars**
 Mobs and players have health bars above their head indicating their current and total HP
