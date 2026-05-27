@@ -2,10 +2,19 @@
 
 This page shows all of the changes over time made to the server; largely to keep track of updates, additions, and adjustments.
 
+## **1.2 - The Farming Update**
+##### <u>Release Date: 5/27/26<\u>
+This update adds an in-depth farming plugin to enhance more of your experience. Info is available on the [Features page](features.md/).
+- Added PyroFarming plugin (/farm, /farm menu)
+- Updated PyroFishing plugin
+- Updated PyroMining plugin
+- Updated [server rules](rules.md/)
+- Fixed server resource pack
+
 ## **1.1 - The Gambling Update**
 ###### <u>Release Date: 7/6/25</u>
 This update addresses some glaring needs of the Vegas variety, as well as adding some other things. Info is available on the [Features page](features.md/).
-- Added PyroFishing plugin (/fish)
+- Added PyroFishing plugin (/fish, /fish menu)
 - Added Daily Rewards plugin (/daily)
 - Added Vegas gambling plugin
 - Fixed issues with End runes spawning that weren't supposed to
