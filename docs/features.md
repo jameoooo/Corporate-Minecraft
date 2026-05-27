@@ -126,6 +126,9 @@ McMMO is an RPG-styled skills plugin that allows you to level up different Minec
 PyroFishing adds features that completely revamp the fishing experience. More info can be found at the [PyroFishing Spigot page](https://www.spigotmc.org/resources/pyrofishingpro-1-14-x-1-21-x-1-fishing-plugin-new-tournament-rework.60729/).
 ![Alt text](img/features/PyroFishing.png)
 
+## **PryoFarming**
+PyroFarming adds a new type of farming, without interfering with regular farming mechanics. More info can be found at the [PyroFarming Spigot page](https://www.spigotmc.org/resources/pyrofarming-1-14-x-1-21-x.110521/).
+
 ## **PyroMining**
 PyroMining adds many different functions that completely revamp the mning experience. The feature list is provided below and more details can be found at the [PyroMining Spigot page](https://www.spigotmc.org/resources/pyromining-1-14-x-1-21-x-v4-0-0-update-artifacts-fossils-and-vessels.59867/) as well as the [PyroMining Wiki](./pyromining.md)
 
